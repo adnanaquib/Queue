@@ -24,6 +24,16 @@ bool Queue::isempty() const
 	return items;
 }
 
+bool Queue::isfull() const
+{
+	return items == qsize;
+}
+
+int Queue:: queuecount() const
+{
+	return items;
+}
+
 bool Queue::enqueue(const Item &item)
 {
 	if (isfull())
