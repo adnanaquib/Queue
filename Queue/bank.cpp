@@ -92,5 +92,3 @@ bool newcustomer(double x)
 }
 
 
-
-}
